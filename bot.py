@@ -18,10 +18,10 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Конфигурация
-BOT_TOKEN = "8351803012:AAEWkO5AbndYnnWQ0gswwp4vFPSjQPI3qLU"
+BOT_TOKEN = "Ваш токен"
 WEATHER_API_KEY = "e4b93ed98df342f2904201539252510"
 ADMIN_IDS = [7638967663]  # Замени на свой Telegram ID
-GROUP_LINK = "https://t.me/CodefProgress"  # Замени на ссылку своей группы
+GROUP_LINK = "Ваша ссылка на канал"  # Замени на ссылку своей группы
 
 # Инициализация бота
 bot = Bot(token=BOT_TOKEN)
@@ -843,4 +843,5 @@ async def main():
     await dp.start_polling(bot)
 
 if __name__ == "__main__":
+
     asyncio.run(main())
