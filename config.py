@@ -1,0 +1,4 @@
+BOT_TOKEN = "Ваш токен"
+WEATHER_API_KEY = "e4b93ed98df342f2904201539252510"
+ADMIN_IDS = [7638967663]
+GROUP_LINK = "Ваша ссылка на канал"
